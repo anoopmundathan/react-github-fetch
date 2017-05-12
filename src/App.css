@@ -1,0 +1,53 @@
+.github-container {
+  margin: 10% auto;
+  width: 50%;
+  height: 400px;
+  max-width: 500px;
+  border: 1px solid;
+  background: #fafafa;
+  position: relative;
+}
+
+
+.head-container,
+.detail-container,
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.profile-container {
+  margin-top: 20px;
+}
+
+.head-container,
+.detail-container {
+  border-bottom: 1px solid;
+}
+
+.profile-container,
+.count-container,
+.footer-container {
+  display: flex;
+}
+
+.profile-image,
+.profile-name {
+  width: 50%;
+}
+
+.following,
+.followers,
+.repositories, 
+.follow,
+.active {
+  margin: 5px;
+}
+
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
